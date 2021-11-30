@@ -1,0 +1,22 @@
+.btn-primary {
+    background-color: #FC724D !important;
+    border-color: #FC724D !important;
+}
+
+.footer-page {
+    padding: 10px 0px;
+    bottom: 0;
+    background-color: #26335D;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.navbar-brand, .nav-link, .footer-text {
+    color: #ffffff !important;
+}
