@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
 import Header from '../../Components/Header/header'
 import Footer from '../../Components/Footer/footer'
-import MainPeople from '../../Assets/Images/landingPage.png'
-import { Col, Container, Row } from 'react-bootstrap'
-import { Base, ButtonTemplate, ColLeftMain, ColRightMain, MainH1, MainH5, MainP, RowMain } from './style'
+import Part1 from './Part1/part1'
+import Part2 from './Part2/part2'
+import Part3 from './Part3/part3'
+import Part4 from './Part4/part4'
+import { Container } from 'react-bootstrap'
+import { Base } from './style'
 
 export class home extends Component {
     render() {
@@ -11,27 +14,12 @@ export class home extends Component {
             <Base>
                 <Header />
                 <Container>
-                    <Row>
-                        <RowMain>
-                            <Col md={12}>
-                                <Row>
-                                    <Col md={6} className='align-self-center'>
-                                        <ColLeftMain>
-                                            <MainH5>Halo Pejuang Kebersihan</MainH5>
-                                            <MainH1>Perkenalkan Jasa Pembersih Terbaik</MainH1>
-                                            <MainP>Kami menawarkan jasa kebersihan dengan harga terjangkau dan kualitas pelayanan Bintang 5</MainP>
-                                            <ButtonTemplate>Order Now</ButtonTemplate>
-                                        </ColLeftMain>
-                                    </Col>
-                                    <Col md={6}>
-                                        <ColRightMain>
-                                            <img src={ MainPeople } alt=""/>
-                                        </ColRightMain>
-                                    </Col>
-                                </Row>
-                            </Col>
-                        </RowMain>
-                    </Row>
+                    <Part1 />
+                    <Part2 />
+                </Container>
+                <Part3 />
+                <Container>
+                    <Part4 />
                 </Container>
                 <Footer className='fixed-bottom' />
             </Base>
