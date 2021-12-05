@@ -10,7 +10,7 @@ export class part4 extends Component {
                 <RowMain>
                     <Col md={12}>
                         <Row>
-                            <Col md={6}>
+                            <Col md={6} className='align-self-center'>
                                 <MainH1>Ahli & Berpengalaman</MainH1>
                                 <MainP>Para pekerja Pramu sudah sangat berpengalaman dalam hal kebersihan guna memberikan hasil terbaik dan higienis</MainP>
                             </Col>

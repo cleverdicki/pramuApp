@@ -1,8 +1,11 @@
 import styled from "styled-components"
 
-export const FooterPage = styled.div`
-    padding: 10px 0px;
+export const FooterPage = styled.footer`
+    padding: 10px 0;
     background-color: #26335D;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 `
 
 export const FooterTextH3 = styled.h3`

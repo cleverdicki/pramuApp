@@ -21,7 +21,7 @@ export class home extends Component {
                 <Container>
                     <Part4 />
                 </Container>
-                <Footer className='fixed-bottom' />
+                <Footer />
             </Base>
         )
     }
