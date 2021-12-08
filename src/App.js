@@ -6,10 +6,11 @@ import PackageBersih from './Pages/Package-Option/Package-Bersih/package-bersih'
 import PackageAntar from './Pages/Package-Option/Package-Antar/package-antar'
 import PackageLengkap from './Pages/Package-Option/Package-Lengkap/package-lengkap'
 import Pricing from './Pages/Pricing/pricing'
+import Thanks from './Pages/Thanks/thanks'
 
 function App() {
   return (
-    <PackageLengkap />
+    <Thanks />
   )
 }
 
