@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pramuApp/static/css/main.e5dcc8a6.chunk.css",
-    "main.js": "/pramuApp/static/js/main.70cbc418.chunk.js",
-    "main.js.map": "/pramuApp/static/js/main.70cbc418.chunk.js.map",
+    "main.js": "/pramuApp/static/js/main.56a6933a.chunk.js",
+    "main.js.map": "/pramuApp/static/js/main.56a6933a.chunk.js.map",
     "runtime-main.js": "/pramuApp/static/js/runtime-main.1dd31ca8.js",
     "runtime-main.js.map": "/pramuApp/static/js/runtime-main.1dd31ca8.js.map",
     "static/css/2.383c0125.chunk.css": "/pramuApp/static/css/2.383c0125.chunk.css",
@@ -38,6 +38,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.fb7c3a9e.chunk.js",
     "static/css/main.e5dcc8a6.chunk.css",
-    "static/js/main.70cbc418.chunk.js"
+    "static/js/main.56a6933a.chunk.js"
   ]
 }
