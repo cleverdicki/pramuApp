@@ -4,6 +4,7 @@ import Footer from '../../../Components/Footer/footer'
 import PackageBersih from '../../../Assets/Gif/package-bersih.gif'
 import { Base, Button, Card, CardContainer, CardDetail, CardDetailContainer, CardTitle, CardTitleChild, Image, MainContainer, MainDetail, MainTitle } from '../style'
 import { Container, Col, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 export class packageBersih extends Component {
     render() {
@@ -40,7 +41,7 @@ export class packageBersih extends Component {
                                                 <CardDetail>Layanan yang meliputi cuci AC, tambah dan isi freon terbaik untuk jenis AC split dan inverter</CardDetail>
                                             </CardDetailContainer>
                                             <CardTitleChild>Total Harga = Rp 300.000</CardTitleChild>
-                                            <Button>Order Now</Button>
+                                            <Link to="/order"><Button>Order Now</Button></Link>
                                         </Card>
                                     </Col>
                                 </Row>

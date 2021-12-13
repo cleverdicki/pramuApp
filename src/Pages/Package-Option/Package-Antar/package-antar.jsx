@@ -4,6 +4,7 @@ import Footer from '../../../Components/Footer/footer'
 import PackageAntar from '../../../Assets/Gif/package-antar.gif'
 import { Base, Button, Card, CardContainer, CardDetail, CardDetailContainer, CardTitle, CardTitleChildBarang, Image, MainContainer, MainDetail, MainTitle } from '../style'
 import { Container, Col, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 export class packageAntar extends Component {
     render() {
@@ -39,7 +40,7 @@ export class packageAntar extends Component {
                                                 <CardTitleChildBarang>Jasa Antar Barang Box (Rp 30.000 / 1 Km)</CardTitleChildBarang>
                                                 <CardDetail>Layanan antar barang menggunakan kendaraan mobil jenis box</CardDetail>
                                             </CardDetailContainer>
-                                            <Button>Order Now</Button>
+                                            <Link to="/order"><Button>Order Now</Button></Link>
                                         </Card>
                                     </Col>
                                 </Row>

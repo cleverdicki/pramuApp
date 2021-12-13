@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../../Components/Header/header'
 import Footer from '../../Components/Footer/footer'
 import { Base, Button, ButtonContainer, Card, CardContainer, CardInput, CardTitle, Dropdown, MainContainer, MainTitle } from './style'
+import { Link } from 'react-router-dom'
 
 export class order extends Component {
     render() {
@@ -31,7 +32,7 @@ export class order extends Component {
                             </CardContainer>
                         </Card>
                         <ButtonContainer>
-                            <Button type='submit'>Daftar</Button>
+                            <Link to="/thanks"><Button type='submit'>Daftar</Button></Link>
                         </ButtonContainer>
                     </form>
                 </MainContainer>

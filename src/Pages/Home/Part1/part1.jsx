@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import ImgPeople from '../../../Assets/Images/landingPage.png'
 import { Row, Col } from 'react-bootstrap'
 import { ButtonTemplate, ColLeftMain, ColRightMain, MainTitleH1, MainTitleH5, MainTitleP, RowMain } from './style'
+import { Link } from 'react-router-dom'
 
 export class part1 extends Component {
     render() {
@@ -15,7 +16,7 @@ export class part1 extends Component {
                                     <MainTitleH5>Halo Pejuang Kebersihan</MainTitleH5>
                                     <MainTitleH1>Perkenalkan Jasa Pembersih Terbaik</MainTitleH1>
                                     <MainTitleP>Kami menawarkan jasa kebersihan dengan harga terjangkau dan kualitas pelayanan Bintang 5</MainTitleP>
-                                    <ButtonTemplate>Order Now</ButtonTemplate>
+                                    <Link to="/order"><ButtonTemplate>Order Now</ButtonTemplate></Link>
                                 </ColLeftMain>
                             </Col>
                             <Col md={6}>

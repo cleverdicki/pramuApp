@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { NavColor, ButtonTemplate } from './style'
+import { Link } from 'react-router-dom'
 
 export class header extends Component {
     render() {
@@ -12,7 +13,7 @@ export class header extends Component {
             <Container className='header-page'>
             <Navbar expand="lg">
                 <Container fluid>
-                    <Navbar.Brand href="#"><NavColor>Pramu</NavColor></Navbar.Brand>
+                    <Navbar.Brand><NavColor>Pramu</NavColor></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                     <Nav
@@ -20,12 +21,12 @@ export class header extends Component {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Nav.Link href="#action1"><NavColor>Home</NavColor></Nav.Link>
-                        <Nav.Link href="#action2"><NavColor>Pricing</NavColor></Nav.Link>
-                        <Nav.Link href="#action2"><NavColor>Contact</NavColor></Nav.Link>
-                        <Nav.Link href="#action2"><NavColor>Join Us</NavColor></Nav.Link>
+                        <Nav.Link><Link to="/"><NavColor>Home</NavColor></Link></Nav.Link>
+                        <Nav.Link><Link to="/pricing"><NavColor>Pricing</NavColor></Link></Nav.Link>
+                        <Nav.Link><Link to="/contact"><NavColor>Contact</NavColor></Link></Nav.Link>
+                        <Nav.Link><Link to="/join-us"><NavColor>Join Us</NavColor></Link></Nav.Link>
                     </Nav>
-                    <ButtonTemplate>Order Now <FontAwesomeIcon icon={faArrowRight} /></ButtonTemplate>
+                    <Link to="/order"><ButtonTemplate>Order Now <FontAwesomeIcon icon={faArrowRight} /></ButtonTemplate></Link>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

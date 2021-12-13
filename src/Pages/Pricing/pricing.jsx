@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingBasket } from '@fortawesome/free-solid-svg-icons'
 import { Base, Button, Card, CardContainer, CardDetail, CardTitle, CardSold, FlexContainer, Image, MainComponent, MainDetail, MainTitle } from './style'
 import { Container } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 export class pricing extends Component {
     render() {
@@ -26,7 +27,7 @@ export class pricing extends Component {
                                 <CardTitle>Bersih</CardTitle>
                                 <CardDetail>Pramu memberikan pelayanan kebersihan dengan memperhatikan protokol kesehatan serta hasil yang maksimal</CardDetail>
                                 <CardSold><FontAwesomeIcon icon={ faShoppingBasket } /> 323 Jual</CardSold>
-                                <Button>Learn More</Button>
+                                <Link to="/package-bersih"><Button>Learn More</Button></Link>
                             </CardContainer>
                         </Card>
                         <Card>
@@ -35,7 +36,7 @@ export class pricing extends Component {
                                 <CardTitle>Antar Barang</CardTitle>
                                 <CardDetail>Pramu menyediakan jasa pengiriman barang yang terjangkau serta menjamin keamanan barang dalam perjalanannya</CardDetail>
                                 <CardSold><FontAwesomeIcon icon={ faShoppingBasket } /> 147 Jual</CardSold>
-                                <Button>Learn More</Button>
+                                <Link to="/package-antar"><Button>Learn More</Button></Link>
                             </CardContainer>
                         </Card>
                         <Card>
@@ -44,7 +45,7 @@ export class pricing extends Component {
                                 <CardTitle>Paket Lengkap</CardTitle>
                                 <CardDetail>Pramu menyediakan paket lengkap yang mencakup keseluruhan paket yang disediakan oleh Pramu</CardDetail>
                                 <CardSold><FontAwesomeIcon icon={ faShoppingBasket } /> 155 Jual</CardSold>
-                                <Button>Learn More</Button>
+                                <Link to="/package-lengkap"><Button>Learn More</Button></Link>
                             </CardContainer>
                         </Card>
                     </FlexContainer>
