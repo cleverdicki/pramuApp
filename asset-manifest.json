@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/pramuApp/static/css/main.e5dcc8a6.chunk.css",
+    "main.js": "/pramuApp/static/js/main.70cbc418.chunk.js",
+    "main.js.map": "/pramuApp/static/js/main.70cbc418.chunk.js.map",
+    "runtime-main.js": "/pramuApp/static/js/runtime-main.1dd31ca8.js",
+    "runtime-main.js.map": "/pramuApp/static/js/runtime-main.1dd31ca8.js.map",
+    "static/css/2.383c0125.chunk.css": "/pramuApp/static/css/2.383c0125.chunk.css",
+    "static/js/2.fb7c3a9e.chunk.js": "/pramuApp/static/js/2.fb7c3a9e.chunk.js",
+    "static/js/2.fb7c3a9e.chunk.js.map": "/pramuApp/static/js/2.fb7c3a9e.chunk.js.map",
+    "static/js/3.225c8728.chunk.js": "/pramuApp/static/js/3.225c8728.chunk.js",
+    "static/js/3.225c8728.chunk.js.map": "/pramuApp/static/js/3.225c8728.chunk.js.map",
+    "index.html": "/pramuApp/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/pramuApp/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.e5dcc8a6.chunk.css.map": "/pramuApp/static/css/main.e5dcc8a6.chunk.css.map",
+    "static/js/2.fb7c3a9e.chunk.js.LICENSE.txt": "/pramuApp/static/js/2.fb7c3a9e.chunk.js.LICENSE.txt",
+    "static/media/antar-opt.9138b84e.png": "/pramuApp/static/media/antar-opt.9138b84e.png",
+    "static/media/background-thanks.cae68ecb.png": "/pramuApp/static/media/background-thanks.cae68ecb.png",
+    "static/media/backgroundMain.e3b7f5e4.png": "/pramuApp/static/media/backgroundMain.e3b7f5e4.png",
+    "static/media/bersih-opt.681e6d3e.png": "/pramuApp/static/media/bersih-opt.681e6d3e.png",
+    "static/media/contact-map.c1dce46e.png": "/pramuApp/static/media/contact-map.c1dce46e.png",
+    "static/media/income.ede876b5.png": "/pramuApp/static/media/income.ede876b5.png",
+    "static/media/insurance.61368336.png": "/pramuApp/static/media/insurance.61368336.png",
+    "static/media/knowledge.562dadb0.png": "/pramuApp/static/media/knowledge.562dadb0.png",
+    "static/media/landingPage.502abd3a.png": "/pramuApp/static/media/landingPage.502abd3a.png",
+    "static/media/landingPage1.07a84a9e.png": "/pramuApp/static/media/landingPage1.07a84a9e.png",
+    "static/media/landingPage2.438fe63f.png": "/pramuApp/static/media/landingPage2.438fe63f.png",
+    "static/media/lengkap-opt.ede661e2.png": "/pramuApp/static/media/lengkap-opt.ede661e2.png",
+    "static/media/package-antar.faed9eb6.gif": "/pramuApp/static/media/package-antar.faed9eb6.gif",
+    "static/media/package-bersih.86872879.gif": "/pramuApp/static/media/package-bersih.86872879.gif",
+    "static/media/package-lengkap.80cd50e0.gif": "/pramuApp/static/media/package-lengkap.80cd50e0.gif",
+    "static/media/partner.0bf6b4cd.png": "/pramuApp/static/media/partner.0bf6b4cd.png",
+    "static/media/vector.263f54f5.png": "/pramuApp/static/media/vector.263f54f5.png",
+    "static/media/whatsapp.b6ac3a52.png": "/pramuApp/static/media/whatsapp.b6ac3a52.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1dd31ca8.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.fb7c3a9e.chunk.js",
+    "static/css/main.e5dcc8a6.chunk.css",
+    "static/js/main.70cbc418.chunk.js"
+  ]
+}
